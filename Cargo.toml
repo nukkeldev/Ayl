@@ -1,0 +1,14 @@
+[package]
+name = "ayl"
+version = "0.0.1"
+edition = "2021"
+
+[workspace]
+members = ["aylcore", "aylgl", "aylcommon"]
+
+[workspace.package]
+authors = ['nukkeldev']
+edition = "2021"
+
+[dependencies]
+aylcore = { path = "aylcore" }

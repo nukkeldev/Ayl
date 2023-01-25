@@ -1,0 +1,10 @@
+[package]
+name = "aylcore"
+version = "0.0.1"
+authors.workspace = true
+edition.workspace = true
+
+[dependencies]
+colored = "2.0.0"
+aylgl = { path = "../aylgl" }
+aylcommon = { path = "../aylcommon" }

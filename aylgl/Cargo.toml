@@ -1,0 +1,9 @@
+[package]
+name = "aylgl"
+version = "0.0.1"
+authors.workspace = true
+edition.workspace = true
+
+[dependencies]
+glfw = "0.49.1"
+aylcommon = { path = "../aylcommon" }
